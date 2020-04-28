@@ -1,9 +1,25 @@
 <?xml version="1.0"?>
-<testsuite name="Node.js (win32; U; rv:v8.11.3)" package="unit" timestamp="2018-12-19T12:51:31" id="0" hostname="01hw333681" tests="0" errors="0" failures="0" time="0">
+<testsuite name="Node.js (linux; U; rv:v8.15.1)" package="unit" timestamp="2020-04-28T20:40:56" id="0" hostname="workspace3hv0iy1bwg9i88ws.ws-cc465c5f5-sdl4f" tests="5" errors="0" failures="3" time="0.048">
   <properties>
-    <property name="browser.fullName" value="Node.js (win32; U; rv:v8.11.3)"/>
+    <property name="browser.fullName" value="Node.js (linux; U; rv:v8.15.1)"/>
   </properties>
-  
+  <testcase name="Testing DIV &amp; SPAN Checking there is &lt;div> with id=&quot;header&quot;" time="0.012" classname="unit.Testing DIV &amp; SPAN"/>
+  <testcase name="Testing DIV &amp; SPAN Check there is header withe message &quot;My Application&quot; in &lt;h1>" time="0.015" classname="unit.Testing DIV &amp; SPAN">
+    <failure type="">Expected '' to contain 'my application&lt;/h1&gt;'.
+    at UserContext.&lt;anonymous&gt; (test/index_test.js:20:25)
+</failure>
+  </testcase>
+  <testcase name="Testing DIV &amp; SPAN Check there is &lt;div> with id=&quot;body&quot;." time="0.004" classname="unit.Testing DIV &amp; SPAN"/>
+  <testcase name="Testing DIV &amp; SPAN Check there is &lt;div> with id=&quot;span1&quot; and back ground color=Green." time="0.012" classname="unit.Testing DIV &amp; SPAN">
+    <failure type="">TypeError: Cannot read property 'getAttribute' of null
+    at UserContext.&lt;anonymous&gt; (test/index_test.js:35:14)
+</failure>
+  </testcase>
+  <testcase name="Testing DIV &amp; SPAN Check there is &lt;div> with id=&quot;span2&quot; and back ground color=Blue." time="0.005" classname="unit.Testing DIV &amp; SPAN">
+    <failure type="">TypeError: Cannot read property 'getAttribute' of null
+    at UserContext.&lt;anonymous&gt; (test/index_test.js:47:14)
+</failure>
+  </testcase>
   <system-out>
     <![CDATA[
 ]]>
